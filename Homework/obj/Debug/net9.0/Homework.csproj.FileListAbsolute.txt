@@ -1,0 +1,15 @@
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework.deps.json
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework.runtimeconfig.json
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework.dll
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework.pdb
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.GeneratedMSBuildEditorConfig.editorconfig
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.AssemblyInfoInputs.cache
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.AssemblyInfo.cs
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.csproj.CoreCompileInputs.cache
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.sourcelink.json
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.dll
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/refint/Homework.dll
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.pdb
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.genruntimeconfig.cache
+/home/enovo/projects/test/hw3/CSharpHomework2025/Homework/obj/Debug/net9.0/ref/Homework.dll
