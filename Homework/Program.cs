@@ -9,7 +9,11 @@ namespace StudentManagementSystem
     public enum Grade
     {
         // TODO: 定义成绩等级 F(0), D(60), C(70), B(80), A(90)
-        
+        F = 0,
+        D = 60,
+        C = 70,
+        B = 80,
+        A = 90       
     }
 
     // 泛型仓储接口
@@ -17,35 +21,57 @@ namespace StudentManagementSystem
     {
         // TODO: 定义接口方法
         // Add(T item)
+        void Add(T item);
         // Remove(T item) 返回bool
+        bool Remove(T item);
         // GetAll() 返回List<T>
+        List<T> GetAll();
         // Find(Func<T, bool> predicate) 返回List<T>
-        
+        List<T> Find(Func<T, bool> predicate);
+
     }
 
     // 学生类
     public class Student : IComparable<Student>
     {
         // TODO: 定义字段 StudentId, Name, Age
-        
+        public string StudentId;
+        public string Name;
+        public int Age;
         
         public Student(string studentId, string name, int age)
         {
             // TODO: 实现构造方法，包含参数验证（空值检查）
-            
+            if (string.IsNullOrEmpty(studentId))
+            {
+                throw new ArgumentException("学号不能为空", nameof(studentId));
+            }
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ArgumentException("姓名不能为空", nameof(name));
+            }
+            if (age <= 0)
+            {
+                throw new ArgumentException("年龄必须大于0", nameof(age));
+            }
+
+            StudentId = studentId;
+            Name = name;
+            Age = age;
         }
 
         public override string ToString()
         {
             // TODO: 返回格式化的学生信息字符串
-            
+            return $"学号：{StudentId}，姓名：{Name}，年龄：{Age}";
         }
 
         // TODO: 实现IComparable接口，按学号排序
         // 提示：使用string.Compare方法
         public int CompareTo(Student? other)
         {
-            
+            if (other == null) return 1; // 如果other为null，当前对象排在前面
+            return string.Compare(StudentId, other.StudentId, StringComparison.Ordinal);
         }
 
         public override bool Equals(object? obj)
@@ -63,18 +89,28 @@ namespace StudentManagementSystem
     public class Score
     {
         // TODO: 定义字段 Subject, Points
-        
-        
+        public string Subject;
+        public double Points;
+
         public Score(string subject, double points)
         {
             // TODO: 实现构造方法，包含参数验证
-            
+            if (string.IsNullOrEmpty(subject))
+            {
+                throw new ArgumentException("科目不能为空", nameof(subject));
+            }
+            if (points < 0 || points > 100)
+            {
+                throw new ArgumentOutOfRangeException(nameof(points), "分数必须在0到100之间");
+            }
+            Subject = subject;
+            Points = points;
         }
 
         public override string ToString()
         {
             // TODO: 返回格式化的成绩信息
-            
+            return $"科目：{Subject}，分数：{Points}";
         }
     }
 
@@ -83,39 +119,66 @@ namespace StudentManagementSystem
     {
         // TODO: 定义私有字段存储学生列表
         // 提示：使用List<Student>存储
-        
+        public List<Student> students = new List<Student>();
 
         public void Add(Student item)
         {
             // TODO: 实现添加学生的逻辑
             // 1. 参数验证
             // 2. 添加到列表
-            
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item), "学生信息不能为空");
+            }
+            students.Add(item);
         }
 
         public bool Remove(Student item)
         {
             // TODO: 实现Remove方法
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item), "学生信息不能为空");
+            }
+            return students.Remove(item);
             
         }
 
         public List<Student> GetAll()
         {
             // TODO: 返回学生列表的副本
-            
+            return new List<Student>(students);
         }
 
         public List<Student> Find(Func<Student, bool> predicate)
         {
             // TODO: 使用foreach循环查找符合条件的学生
-            
+            List<Student> results = new List<Student>();
+            foreach (var student in students)
+            {
+                if (predicate(student))
+                {
+                    results.Add(student);
+                }
+            }
+            return results;
         }
+            
+        
 
         // 查找年龄在指定范围内的学生
         public List<Student> GetStudentsByAge(int minAge, int maxAge)
         {
             // TODO: 使用foreach循环和if判断实现年龄范围查询
-            
+            List<Student> results = new List<Student>();
+            foreach (var student in students)
+            {
+                if (student.Age >= minAge && student.Age <= maxAge)
+                {
+                    results.Add(student);
+                }
+            }
+            return results;
         }
     }
 
@@ -124,7 +187,7 @@ namespace StudentManagementSystem
     {
         // TODO: 定义私有字段存储成绩字典
         // 提示：使用Dictionary<string, List<Score>>存储
-        
+        public Dictionary<string, List<Score>> scores = new Dictionary<string, List<Score>>();
 
         public void AddScore(string studentId, Score score)
         {
@@ -132,33 +195,87 @@ namespace StudentManagementSystem
             // 1. 参数验证
             // 2. 初始化学生成绩列表（如不存在）
             // 3. 添加成绩
-            
+            if (string.IsNullOrEmpty(studentId))
+            {
+                throw new ArgumentException("学号不能为空", nameof(studentId));
+            }
+            if (score == null)
+            {
+                throw new ArgumentNullException(nameof(score), "成绩信息不能为空");
+            }
+            if (!scores.ContainsKey(studentId))
+            {
+                scores[studentId] = new List<Score>();
+            }
+            scores[studentId].Add(score);
         }
 
         public List<Score> GetStudentScores(string studentId)
         {
             // TODO: 获取指定学生的所有成绩
-            
+            if (string.IsNullOrEmpty(studentId))
+            {
+                throw new ArgumentException("学号不能为空", nameof(studentId));
+            }
+            if (scores.ContainsKey(studentId))
+            {
+                return new List<Score>(scores[studentId]);
+            }
+            return new List<Score>();
         }
 
         public double CalculateAverage(string studentId)
         {
             // TODO: 计算指定学生的平均分
             // 提示：使用foreach循环计算总分，然后除以科目数
-            
+            if (string.IsNullOrEmpty(studentId))
+            {
+                throw new ArgumentException("学号不能为空", nameof(studentId));
+            }
+            if (!scores.ContainsKey(studentId) || scores[studentId].Count == 0)
+            {
+                throw new InvalidOperationException("学生没有成绩记录");
+            }
+            double total = 0;
+            foreach (var score in scores[studentId])
+            {
+                total += score.Points;
+            }
+            return total / scores[studentId].Count;
         }
 
         // TODO: 使用模式匹配实现成绩等级转换
         public Grade GetGrade(double score)
         {
-            
+            switch (score)
+            {
+                case < 60:
+                    return Grade.F;
+                case < 70:
+                    return Grade.D;
+                case < 80:
+                    return Grade.C;
+                case < 90:
+                    return Grade.B;
+                default:
+                    return Grade.A;
+            }
         }
 
         public List<(string StudentId, double Average)> GetTopStudents(int count)
         {
             // TODO: 使用简单循环获取平均分最高的学生
             // 提示：可以先计算所有学生的平均分，然后排序取前count个
-            
+            List<(string StudentId, double Average)> averages = new List<(string, double)>();
+            foreach (var studentId in scores.Keys)
+            {
+                double average = CalculateAverage(studentId);
+                averages.Add((studentId, average));
+            }
+            // 按照平均分降序排序
+            averages.Sort((x, y) => y.Average.CompareTo(x.Average));
+            // 返回前count个学生
+            return averages.Take(count).ToList();
         }
 
         public Dictionary<string, List<Score>> GetAllScores()
@@ -177,7 +294,12 @@ namespace StudentManagementSystem
             try
             {
                 // 在这里实现文件写入逻辑
-                
+                StreamWriter writer = new StreamWriter(filePath);
+                foreach (var student in students)
+                {
+                    writer.WriteLine($"{student.StudentId},{student.Name},{student.Age}");
+                }
+                writer.Close();
             }
             catch (Exception ex)
             {
@@ -194,7 +316,19 @@ namespace StudentManagementSystem
             try
             {
                 // 在这里实现文件读取逻辑
-                
+                StreamReader reader = new StreamReader(filePath);
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    var parts = line.Split(',');
+                    if (parts.Length == 3 &&
+                        int.TryParse(parts[2], out int age))
+                    {
+                        var student = new Student(parts[0], parts[1], age);
+                        students.Add(student);
+                    }
+                }
+                reader.Close();
             }
             catch (Exception ex)
             {
@@ -241,22 +375,54 @@ namespace StudentManagementSystem
                 // 3. 测试年龄范围查询
                 Console.WriteLine("\n3. 查找年龄在19-20岁的学生:");
                 // TODO: 调用GetStudentsByAge方法并显示结果
-                
+                var ageFilteredStudents = studentManager.GetStudentsByAge(19, 20);
+                foreach (var student in ageFilteredStudents)
+                {
+                    Console.WriteLine(student);
+                }
 
                 // 4. 显示学生成绩统计
                 Console.WriteLine("\n4. 学生成绩统计:");
                 // TODO: 遍历所有学生，显示其成绩、平均分和等级
-                
+                foreach (var student in studentManager.GetAll())
+                {
+                    Console.WriteLine($"学号：{student.StudentId}，姓名：{student.Name}");
+                    var scores = scoreManager.GetStudentScores(student.StudentId);
+                    if (scores.Count > 0)
+                    {
+                        foreach (var score in scores)
+                        {
+                            Console.WriteLine($"  课程：{score.Subject}，分数：{score.Points}");
+                        }
+
+                        var average = scoreManager.CalculateAverage(student.StudentId);
+                        Console.WriteLine($"  平均分：{average}");
+                    }
+                }
 
                 // 5. 显示排名（简化版）
                 Console.WriteLine("\n5. 平均分最高的学生:");
                 // TODO: 调用GetTopStudents(1)方法显示第一名
-                
+                var topStudents = scoreManager.GetTopStudents(1);
+                foreach (var topStudent in topStudents)
+                {
+                    Console.WriteLine($"学号：{topStudent.StudentId}，平均分：{topStudent.Average}");
+                }
 
                 // 6. 文件操作
                 Console.WriteLine("\n6. 数据持久化演示:");
                 // TODO: 保存和读取学生文件
-                
+                string filePath = "students.txt";
+                dataManager.SaveStudentsToFile(studentManager.GetAll(), filePath);
+                Console.WriteLine($"学生数据已保存到 {filePath}");
+
+                // 读取学生数据
+                var loadedStudents = dataManager.LoadStudentsFromFile(filePath);
+                Console.WriteLine("从文件加载的学生数据:");
+                foreach (var student in loadedStudents)
+                {
+                    Console.WriteLine(student);
+                }
 
             }
             catch (Exception ex)
