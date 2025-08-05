@@ -286,7 +286,6 @@
                 var ageFilteredStudents = studentManager.GetStudentsByAge(19, 20);
                 foreach (var student in ageFilteredStudents)
                 {
-                    //Console.WriteLine("\n");
                     Console.WriteLine(student);
                 }
 
@@ -294,7 +293,6 @@
                 foreach (var student in studentManager.GetAll())
                 {
                     var scores = scoreManager.GetStudentScores(student.StudentId);
-                    //Console.WriteLine("\n");
                     Console.WriteLine(student);
                     foreach (var score in scores)
                     {
@@ -321,7 +319,6 @@
                 Console.WriteLine("从文件加载的学生信息:");
                 foreach (var student in loadedStudents)
                 {
-                    //Console.WriteLine("\n");
                     Console.WriteLine(student);
                 }
 
