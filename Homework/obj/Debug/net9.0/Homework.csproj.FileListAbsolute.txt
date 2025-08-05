@@ -1,0 +1,14 @@
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\bin\Debug\net9.0\Homework.exe
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\bin\Debug\net9.0\Homework.deps.json
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\bin\Debug\net9.0\Homework.dll
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\bin\Debug\net9.0\Homework.pdb
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\Homework.dll
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\refint\Homework.dll
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\Homework.pdb
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+D:\学习计划\大一暑期\暑期培训\Day3-C#-Net\CSharpHomework2025-main\CSharpHomework2025-main\Homework\obj\Debug\net9.0\ref\Homework.dll
