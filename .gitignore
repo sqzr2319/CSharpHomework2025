@@ -1,0 +1,24 @@
+# .NET build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# CSV file
+*.csv
