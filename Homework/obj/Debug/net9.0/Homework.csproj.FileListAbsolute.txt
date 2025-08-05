@@ -1,0 +1,15 @@
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework.deps.json
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework.runtimeconfig.json
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework.dll
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/bin/Debug/net9.0/Homework.pdb
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.AssemblyInfoInputs.cache
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.AssemblyInfo.cs
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.csproj.CoreCompileInputs.cache
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.sourcelink.json
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.dll
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/refint/Homework.dll
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.pdb
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/Homework.genruntimeconfig.cache
+/Users/nacresp/Code/C#/CSharpHomework2025/Homework/obj/Debug/net9.0/ref/Homework.dll
