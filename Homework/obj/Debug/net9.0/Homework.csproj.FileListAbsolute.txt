@@ -1,0 +1,14 @@
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+D:\Git related\hw_cs_25sp\Homework\bin\Debug\net9.0\Homework.exe
+D:\Git related\hw_cs_25sp\Homework\bin\Debug\net9.0\Homework.deps.json
+D:\Git related\hw_cs_25sp\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+D:\Git related\hw_cs_25sp\Homework\bin\Debug\net9.0\Homework.dll
+D:\Git related\hw_cs_25sp\Homework\bin\Debug\net9.0\Homework.pdb
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\Homework.dll
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\refint\Homework.dll
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\Homework.pdb
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+D:\Git related\hw_cs_25sp\Homework\obj\Debug\net9.0\ref\Homework.dll
