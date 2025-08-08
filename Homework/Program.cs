@@ -9,7 +9,11 @@ namespace StudentManagementSystem
     public enum Grade
     {
         // TODO: 定义成绩等级 F(0), D(60), C(70), B(80), A(90)
-        
+        F = 0,
+        D = 60,
+        C = 70,
+        B = 80,
+        A = 90
     }
 
     // 泛型仓储接口
@@ -20,32 +24,47 @@ namespace StudentManagementSystem
         // Remove(T item) 返回bool
         // GetAll() 返回List<T>
         // Find(Func<T, bool> predicate) 返回List<T>
-        
+        void Add(T item);
+        bool Remove(T item);
+        List<T> GetAll();
+        List<T> Find(Func<T, bool> predicate);
     }
 
     // 学生类
     public class Student : IComparable<Student>
     {
         // TODO: 定义字段 StudentId, Name, Age
-        
+        public string StudentId { get; }
+        public string Name { get; }
+        public int Age { get; }
         
         public Student(string studentId, string name, int age)
         {
             // TODO: 实现构造方法，包含参数验证（空值检查）
+            if (string.IsNullOrWhiteSpace(studentId))
+                throw new ArgumentException("学号不能为空");
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentException("姓名不能为空");
+            if (age <= 0)
+                throw new ArgumentException("年龄必须大于0");
             
+            StudentId = studentId;
+            Name = name;
+            Age = age;
         }
 
         public override string ToString()
         {
             // TODO: 返回格式化的学生信息字符串
-            
+            return $"学号: {StudentId}, 姓名: {Name}, 年龄: {Age}";
         }
 
         // TODO: 实现IComparable接口，按学号排序
         // 提示：使用string.Compare方法
         public int CompareTo(Student? other)
         {
-            
+            if (other == null) return 1;
+            return string.Compare(StudentId, other.StudentId, StringComparison.Ordinal);
         }
 
         public override bool Equals(object? obj)
@@ -63,18 +82,25 @@ namespace StudentManagementSystem
     public class Score
     {
         // TODO: 定义字段 Subject, Points
-        
+        public string Subject { get; }
+        public double Points { get; }
         
         public Score(string subject, double points)
         {
             // TODO: 实现构造方法，包含参数验证
+            if (string.IsNullOrWhiteSpace(subject))
+                throw new ArgumentException("科目不能为空");
+            if (points < 0 || points > 100)
+                throw new ArgumentException("分数必须在0-100之间");
             
+            Subject = subject;
+            Points = points;
         }
 
         public override string ToString()
         {
             // TODO: 返回格式化的成绩信息
-            
+            return $"{Subject}: {Points:F1}分";
         }
     }
 
@@ -83,7 +109,7 @@ namespace StudentManagementSystem
     {
         // TODO: 定义私有字段存储学生列表
         // 提示：使用List<Student>存储
-        
+        private readonly List<Student> students = new List<Student>();
 
         public void Add(Student item)
         {
