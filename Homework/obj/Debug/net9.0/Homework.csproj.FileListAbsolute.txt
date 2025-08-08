@@ -1,0 +1,15 @@
+D:\Github\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.exe
+D:\Github\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.deps.json
+D:\Github\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+D:\Github\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.dll
+D:\Github\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.pdb
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.sourcelink.json
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.dll
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\refint\Homework.dll
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.pdb
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+D:\Github\CSharpHomework2025\Homework\obj\Debug\net9.0\ref\Homework.dll
