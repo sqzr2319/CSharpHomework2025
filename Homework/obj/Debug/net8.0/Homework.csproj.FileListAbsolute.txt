@@ -1,0 +1,15 @@
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\Homework.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\Homework.AssemblyInfo.cs
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\Homework.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\Homework.sourcelink.json
+C:\Users\asus\Documents\CSharpHomework2025\Homework\bin\Debug\net8.0\Homework.exe
+C:\Users\asus\Documents\CSharpHomework2025\Homework\bin\Debug\net8.0\Homework.deps.json
+C:\Users\asus\Documents\CSharpHomework2025\Homework\bin\Debug\net8.0\Homework.runtimeconfig.json
+C:\Users\asus\Documents\CSharpHomework2025\Homework\bin\Debug\net8.0\Homework.dll
+C:\Users\asus\Documents\CSharpHomework2025\Homework\bin\Debug\net8.0\Homework.pdb
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\Homework.dll
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\refint\Homework.dll
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\Homework.pdb
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\Homework.genruntimeconfig.cache
+C:\Users\asus\Documents\CSharpHomework2025\Homework\obj\Debug\net8.0\ref\Homework.dll
