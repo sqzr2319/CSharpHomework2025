@@ -1,0 +1,15 @@
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.exe
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.deps.json
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.dll
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.pdb
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.sourcelink.json
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.dll
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\refint\Homework.dll
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.pdb
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+E:\summerproject\hw\finished\3\CSharpHomework2025\Homework\obj\Debug\net9.0\ref\Homework.dll
