@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ms169\\Desktop\\Homework\\Homework\\Homework.csproj": {}
+    "D:\\Desktop\\2025软件部暑培\\作业\\CSharpHomework2025\\Homework\\Homework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ms169\\Desktop\\Homework\\Homework\\Homework.csproj": {
+    "D:\\Desktop\\2025软件部暑培\\作业\\CSharpHomework2025\\Homework\\Homework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ms169\\Desktop\\Homework\\Homework\\Homework.csproj",
+        "projectUniqueName": "D:\\Desktop\\2025软件部暑培\\作业\\CSharpHomework2025\\Homework\\Homework.csproj",
         "projectName": "Homework",
-        "projectPath": "C:\\Users\\ms169\\Desktop\\Homework\\Homework\\Homework.csproj",
-        "packagesPath": "C:\\Users\\ms169\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ms169\\Desktop\\Homework\\Homework\\obj\\",
+        "projectPath": "D:\\Desktop\\2025软件部暑培\\作业\\CSharpHomework2025\\Homework\\Homework.csproj",
+        "packagesPath": "C:\\Users\\Yang\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\2025软件部暑培\\作业\\CSharpHomework2025\\Homework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ms169\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
