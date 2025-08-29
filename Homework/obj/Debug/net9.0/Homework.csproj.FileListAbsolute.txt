@@ -1,0 +1,15 @@
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.sourcelink.json
+C:\Users\朱羿帆\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.exe
+C:\Users\朱羿帆\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.deps.json
+C:\Users\朱羿帆\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+C:\Users\朱羿帆\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.dll
+C:\Users\朱羿帆\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.pdb
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.dll
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\refint\Homework.dll
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.pdb
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+C:\Users\朱羿帆\CSharpHomework2025\Homework\obj\Debug\net9.0\ref\Homework.dll
