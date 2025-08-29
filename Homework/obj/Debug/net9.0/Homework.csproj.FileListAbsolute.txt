@@ -1,0 +1,15 @@
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.exe
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.deps.json
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.dll
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.pdb
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.sourcelink.json
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.dll
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\refint\Homework.dll
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.pdb
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+E:\我的\大学\大一暑期\暑培\3 C#\CSharpHomework2025\Homework\obj\Debug\net9.0\ref\Homework.dll
