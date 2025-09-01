@@ -1,0 +1,15 @@
+D:\25暑培\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.exe
+D:\25暑培\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.deps.json
+D:\25暑培\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+D:\25暑培\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.dll
+D:\25暑培\CSharpHomework2025\Homework\bin\Debug\net9.0\Homework.pdb
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.sourcelink.json
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.dll
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\refint\Homework.dll
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.pdb
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+D:\25暑培\CSharpHomework2025\Homework\obj\Debug\net9.0\ref\Homework.dll
