@@ -24,10 +24,6 @@ namespace StudentManagementSystem
         // Remove(T item) 返回bool
         // GetAll() 返回List<T>
         // Find(Func<T, bool> predicate) 返回List<T>
-        void Add(T item);
-        bool Remove(T item);
-        List<T> GetAll();
-        List<T> Find(Func<T, bool> predicate);
     }
 
     // 学生类
