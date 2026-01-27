@@ -20,7 +20,7 @@ namespace StudentManagementSystem
     public interface IRepository<T>
     {
         // TODO: 定义接口方法
-        // Add(T item)
+        void Add(T item)
         // Remove(T item) 返回bool
         // GetAll() 返回List<T>
         // Find(Func<T, bool> predicate) 返回List<T>
